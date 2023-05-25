@@ -11,15 +11,19 @@ interface NavItems {
     page: string
 }
 
-const NAV_ITEMS: Array<NavItems/> = [
-{ label: "Home", page: "home",},
-{ label: "About", page: "about",},
-{ label: "Projects", page: "projects",},
+const NAV_ITEMS: Array<NavItems> = [
+    { label: "Home", page: "home" },
+    { label: "About", page: "about", },
+    { label: "Projects", page: "projects", },
 ]
 
 const Navbar = () => {
+
+    const { systemTheme, theme, setTheme } = useTheme()
+    const currentTheme = theme === "system" ? systemTheme : theme
+    const [navbar, setNavbar] = useState(false)
     return (
-        <div>Navbar</div>
+        <div>Navbar!</div>
     )
 }
 
