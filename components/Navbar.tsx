@@ -11,6 +11,12 @@ interface NavItems {
     page: string
 }
 
+const NAV_ITEMS: Array<NavItems/> = [
+{ label: "Home", page: "home",},
+{ label: "About", page: "about",},
+{ label: "Projects", page: "projects",},
+]
+
 const Navbar = () => {
     return (
         <div>Navbar</div>
