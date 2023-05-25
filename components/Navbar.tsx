@@ -55,7 +55,7 @@ const NavBar = () => {
                         <Link
                             to="home"
                             className={
-                                "block lg:inline-block text-neutral-900  hover:text-neutral-500  dark:text-teal-700 cursor-pointer"
+                                "block lg:inline-block text-neutral-900  hover:text-neutral-500   dark:text-teal-700 cursor-pointer"
                             }
                             activeClass="active"
                             spy={true}
@@ -64,7 +64,7 @@ const NavBar = () => {
                             duration={500}
                             onClick={() => setNavbar(!navbar)}>
                             <div className="md:py-5 md:block">
-                                <h2 className="text-2xl font-bold">Mate Kamaras</h2>
+                                <h2 className="text-2xl font-bold hover:text-white">Mate Kamaras</h2>
                             </div>
                         </Link>
 
@@ -81,6 +81,7 @@ const NavBar = () => {
                             {NAV_ITEMS.map((item, idx) => {
                                 return (
                                     <Link
+
                                         key={idx}
                                         to={item.page}
                                         className={
