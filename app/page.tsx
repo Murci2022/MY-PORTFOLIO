@@ -1,6 +1,6 @@
 
 export default function Home() {
     return (
-        <main>Hello World</main>
+        <main className="text-2xl">Hello World!</main>
     )
 }
