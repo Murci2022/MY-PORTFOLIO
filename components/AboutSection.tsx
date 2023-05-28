@@ -21,7 +21,8 @@ const AboutSection = () => {
     return (
         <section id='about' className='text-center break-normal bg-stone-900 dark:bg-black text-teal-300 py-3 px-3 rounded-xl'>
             <div className='my-12 pb-6 md:pt-30 md:pb-30   '>
-                <h1 className='text-center font-bold text-4xl'>About Me</h1>
+                <h1 className='text-center font-bold text-4xl'>
+                    About Me</h1>
                 <hr className=' w-6 h-1 mx-auto my-4 bg-black border-0 rounded'></hr>
                 <div className='flex flex-col space-y-10 items-stretch justify-center align-top  md:flex-row md:text-left md:p-4 md:space-y-0 md:space-x-10 '>
                     <div className='md:w-1/2'>
@@ -39,7 +40,7 @@ const AboutSection = () => {
                             <span className='font-bold'>{" Thechnology  "}</span>,
                             <span className='font-bold'>{" AI "}</span>, and the
                             <span className='font-bold'>{" cosmos"}</span>,
-                            have an irresistible allure that captivates my mind.
+                            have an irresistible allure (seductive charm) that captivates my mind.
                             I find myself endlessly fascinated by the vast wonders of the universe,
                             the <span className='font-bold'>{" limitless potential "}</span>,
                             of artificial intelligence,
@@ -55,10 +56,16 @@ const AboutSection = () => {
                         </p>
                         <br />
 
+
                         <li>
-                            <span className='font-bold'>{"english"}</span>, and {" "}
+
                             <span className='font-bold'>{"german "}</span> - [fluent]{" "}
                             {" "}
+                        </li>
+                        <br />
+                        <li>
+                            <span className='font-bold'>{"english"}</span> - [fluent]{" "}
+
                         </li>
                         <br />
                         <li>
@@ -80,7 +87,7 @@ const AboutSection = () => {
 
                     </div>
                     <div className='md:w-1/2'>
-                        <h1 className='text-center text-xl2 font-bold mb-6 md:text-left'>My Skills</h1>
+                        <h1 className='text-center text-xl2 font-bold mb-6 md:text-left'>Tech-Stack</h1>
                         <div className='flex flex-col justify-between h-full'>
 
 
