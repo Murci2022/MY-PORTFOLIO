@@ -20,9 +20,11 @@ const AboutSection = () => {
     /* border-2 md:border-dotted border-red */
     return (
         <section id='about' className='text-center break-normal bg-stone-900 dark:bg-black text-teal-300 py-3 px-3 rounded-xl'>
-            <div className='my-12 pb-6 md:pt-30 md:pb-30   '>
-                <h1 className='text-center font-bold text-4xl'>
+            <div className='mb-12 mt-6 mr-4 pb-6 md:pt-30 md:pb-30'>
+                <h1 className='text-end font-bold text-4xl text-red-500'>
                     About Me</h1>
+
+
                 <hr className=' w-6 h-1 mx-auto my-4 bg-black border-0 rounded'></hr>
                 <div className='flex flex-col space-y-10 items-stretch justify-center align-top  md:flex-row md:text-left md:p-4 md:space-y-0 md:space-x-10 '>
                     <div className='md:w-1/2'>
@@ -55,30 +57,36 @@ const AboutSection = () => {
 
                         </p>
                         <br />
+                        <div >
+                            <ul className='list-none'>
+                                <li className='flex'>
+                                    <img src="/german.png" alt="German Flag" className="w-4 h-auto mr-2" />
+                                    <span className='font-bold'>{"german "}</span> - [fluent]{" "}
+                                    {" "}
+                                </li>
+                                <br />
+                                <li className='flex'>
+                                    <img src="/english.png" alt="English Flag" className="w-4 h-auto mr-2" />
+                                    <span className='font-bold'>{"english"}</span> - [fluent]{" "}
 
+                                </li>
+                                <br />
+                                <li className='flex text-center'>
+                                    <img src="/japanese.png" alt="Japanese Flag" className="w-4 h-auto mr-2" />
+                                    <span className='font-bold'>{"japanese"}</span> - [conversational]
+                                    {" "}
+                                </li>
+                                <br />
+                                <li className='flex'>
+                                    <img src="/hungarian.png" alt="Hungarian Flag" className="w-4 h-auto mr-2" />
+                                    <span className='font-bold'>{"hungarian"}</span> - [mothertounge]
+                                    {" "}
+                                </li>
+                                <br />
 
-                        <li>
+                            </ul>
 
-                            <span className='font-bold'>{"german "}</span> - [fluent]{" "}
-                            {" "}
-                        </li>
-                        <br />
-                        <li>
-                            <span className='font-bold'>{"english"}</span> - [fluent]{" "}
-
-                        </li>
-                        <br />
-                        <li>
-                            <span className='font-bold'>{"hungarian"}</span> - [mothertounge]
-                            {" "}
-                        </li>
-                        <br />
-                        <li>
-                            <span className='font-bold'>{"japanese"}</span> - [conversational]
-                            {" "}
-                        </li>
-                        <br />
-
+                        </div>
 
 
 
@@ -86,14 +94,14 @@ const AboutSection = () => {
 
 
                     </div>
-                    <div className='md:w-1/2'>
+                    <section id="techstack" className='  md:w-1/2 '>
                         <h1 className='text-center text-xl2 font-bold mb-6 md:text-left'>Tech-Stack</h1>
                         <div className='flex flex-col justify-between h-full'>
 
 
                             <div className='flex flex-wrap flex-row justify-center mb-10 md:justify-start'>
                                 {skills.map((skill, idx) => {
-                                    return <p key={idx} className='bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold  '>{skill.skill}</p>
+                                    return <p key={idx} className='bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500  font-semibold  '>{skill.skill}</p>
                                 })}
                             </div>
 
@@ -104,10 +112,10 @@ const AboutSection = () => {
                                 <Image src="/Telesc.png" alt='Telescope' height={400} width={400} className='hidden w-400 h-400  mb-10 md:float-right md:block' />
                             </div>
                         </div>
-                    </div>
+                    </section>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
 
