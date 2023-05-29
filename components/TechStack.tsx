@@ -17,8 +17,9 @@ const TechStack = () => {
 
     ]
 
-    return (
-        <section id="techstack" className=' md:w-1/2 '>
+    return (<>
+
+        {/* {<section id="techstack" className=' md:w-1/2 '>
             <h1 className='text-center text-xl2 font-bold mb-6 md:text-left'>Tech-Stack</h1>
             <div className='flex flex-col justify-between h-full'>
 
@@ -36,8 +37,8 @@ const TechStack = () => {
                     <Image src="/Telesc.png" alt='Telescope' height={400} width={400} className='hidden w-400 h-400  mb-10 md:float-right md:block' />
                 </div>
             </div>
-        </section>
-    )
+        </section>  */}
+    </>)
 }
 
 export default TechStack

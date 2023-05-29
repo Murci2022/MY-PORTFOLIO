@@ -37,7 +37,7 @@ const HeroSection = () => {
                     </p>
                     <Link
                         to="projects"
-                        className="text-neutral-100 font-semibold rounded-md mx-8 px-6 py-3 dark:bg-lblue shadow dark:hover:bg-hlblue dark:active:ring-2 dark:active:ring-blue-500 active:ring-offset-2 active:ring-offset-blue-500 cursor-pointer"
+                        className="text-neutral-100 font-semibold mr-4 rounded-md px-6 py-3 bg-lblue shadow-xl hover:bg-hlblue active:ring-2 active:ring-blue-500 active:ring-offset-2 active:ring-offset-blue-500 cursor-pointer"
 
                         activeClass="active"
                         spy={true}
@@ -49,7 +49,7 @@ const HeroSection = () => {
                     </Link>
                     <Link
                         to="techstack"
-                        className="text-neutral-100 font-semibold rounded-md px-6 py-3 bg-lblue shadow hover:bg-hlblue active:ring-2 active:ring-blue-500 active:ring-offset-2 active:ring-offset-blue-500 cursor-pointer"
+                        className="text-neutral-100 font-semibold rounded-md px-6 py-3 bg-lblue shadow-xl hover:bg-hlblue active:ring-2 active:ring-blue-500 active:ring-offset-2 active:ring-offset-blue-500 cursor-pointer"
 
                         activeClass="active"
                         spy={true}
@@ -62,7 +62,7 @@ const HeroSection = () => {
 
                 </div>
                 <div className='flex md:justify-center md:w-1/2 md:mt-2'>
-                    <Image className='rounded-md w-auto h-auto' src="/Mate2.png" alt='headshot' width={300} height={300} priority />
+                    <Image className='rounded-md shadow-xl w-auto h-auto' src="/Mate2.png" alt='headshot' width={300} height={300} priority />
                 </div>
             </div>
             <div className='flex flex-row justify-center  md:mt-40' >
