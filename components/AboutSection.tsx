@@ -17,12 +17,12 @@ const skills = [
 
 
 const AboutSection = () => {
-    /* border-2 md:border-dotted border-red */
+    /* */
     return (
-        <section id='about' className='text-center break-normal bg-stone-900 dark:bg-black text-teal-300 py-3 px-3 rounded-xl'>
+        <section id='about' className='border-2 md:border-dotted border-red text-center break-normal bg-stone-100  dark:bg-black text-gray-300 py-3 px-3 rounded-xl'>
             <div className='my-6 mx-4 pb-6 md:pt-30 md:pb-30'>
-                <h1 className='text-center font-bold text-4xl text-red-500'>
-                    About Me</h1>
+                <h1 className='text-center font-bold text-xl text-red-500'>
+                    - About Me -</h1>
 
 
                 <hr className=' w-6 h-1 mx-auto my-4 bg-black border-0 rounded'></hr>
@@ -101,7 +101,7 @@ const AboutSection = () => {
 
                             <div className='flex flex-wrap flex-row justify-center mb-10 md:justify-start'>
                                 {skills.map((skill, idx) => {
-                                    return <p key={idx} className='bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500  font-semibold  '>{skill.skill}</p>
+                                    return <p key={idx} className='bg-lblue px-4 py-2 mr-2 mt-2 rounded-sm text-white  font-semibold  '>{skill.skill}</p>
                                 })}
                             </div>
 

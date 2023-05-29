@@ -46,7 +46,7 @@ const NavBar = () => {
 
 
     return (
-        <header className="w-full  mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow  bg-white dark:bg-dblue-900  dark:bg-dblue dark:border-stone-600">
+        <header className="w-full  mx-auto  px-4 sm:px-20 fixed top-0 z-50 bg-light   dark:bg-dblue ">
 
             <div className="justify-between md:items-center md:flex">
 
@@ -58,12 +58,12 @@ const NavBar = () => {
                         {
                             currentTheme === "dark" ? (
                                 <button onClick={() => setTheme("light")}
-                                    className="bg-slate-100 p-2 rounded-xl hover:translate-y-1 transition-transform">{<RiSunLine style={{
-                                        color: "black"
+                                    className=" p-2 rounded-xl hover:translate-y-1 transition-transform">{<RiSunLine style={{
+                                        color: "white"
                                     }} />}</button>
                             ) : (
                                 <button onClick={() => setTheme("dark")}
-                                    className="bg-slate-100 p-2 rounded-xl hover:translate-y-1 transition-transform"
+                                    className=" p-2 rounded-xl hover:translate-y-1 transition-transform"
                                 >{<RiMoonFill />}</button>
                             )
                         }
@@ -85,7 +85,7 @@ const NavBar = () => {
                                         key={idx}
                                         to={item.page}
                                         className={
-                                            "block lg:inline-block text-gray-500  hover:text-neutral-500 hover:border-b-2 hover:border-red-900 dark:text-gray-500 cursor-pointer"
+                                            "block lg:inline-block text-gray-800  hover:text-neutral-500 hover:border-b-2 hover:border-red-900 dark:text-gray-500 cursor-pointer"
                                         }
                                         activeClass="active"
                                         spy={true}

@@ -29,7 +29,7 @@ const projects = [
 const ProjectSection = () => {
     return (
         <section id='projects' className='text-center break-normal md:py-30 '>
-            <h1 className='text-center text-red-500 mb-6 font-bold text-4xl pt-20 pb-5'>My Projects</h1>
+            <h1 className='text-center text-red-500 mb-6 font-bold text-2xl pt-20 pb-5'> - My Projects -</h1>
 
             <div className='flex flex-col space-y-28'>
                 {projects.map((project, idx) => {

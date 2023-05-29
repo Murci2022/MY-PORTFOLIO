@@ -16,8 +16,9 @@ module.exports = {
     extend: {
       colors:{
         dblue:"#0D0E16",
-        lblue:"#4BA3E3",
-        hlblue:"#9EA8FF"
+        lblue:"#4E44AC",
+        hlblue:"#9EA8FF",
+        light:"#E5E5E5"
       },
       animation:{
        bounce:"bounce 0.5s alternate cubic-bezier(0.95, 0.05, 0.795, 0.035) infinite",
