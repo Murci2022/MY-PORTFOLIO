@@ -1,4 +1,5 @@
 "use client" // this is a client component
+import '../styles/globals.css'
 import React from "react"
 import { useState, useEffect } from "react"
 import { Link } from "react-scroll/modules"
@@ -45,7 +46,7 @@ const NavBar = () => {
 
 
     return (
-        <header className="w-full  mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow  bg-white dark:bg-stone-900  dark:border-b dark:border-stone-600">
+        <header className="w-full  mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow  bg-white dark:bg-dblue-900  dark:bg-dblue dark:border-stone-600">
 
             <div className="justify-between md:items-center md:flex">
 
@@ -53,21 +54,19 @@ const NavBar = () => {
 
                 <div>
                     <div className="flex items-center justify-between py-3">
-                        <Link
-                            to="home"
-                            className={
-                                "block lg:inline-block text-neutral-900  hover:text-neutral-500   dark:text-teal-700 cursor-pointer"
-                            }
-                            activeClass="active"
-                            spy={true}
-                            smooth={true}
-                            offset={-100}
-                            duration={500}
-                            onClick={() => setNavbar(!navbar)}>
-                            <div className="md:py-5 md:block">
-                                <h2 className="text-2xl font-bold hover:text-white">Mate Kamaras</h2>
-                            </div>
-                        </Link>
+
+                        {
+                            currentTheme === "dark" ? (
+                                <button onClick={() => setTheme("light")}
+                                    className="bg-slate-100 p-2 rounded-xl hover:translate-y-1 transition-transform">{<RiSunLine style={{
+                                        color: "black"
+                                    }} />}</button>
+                            ) : (
+                                <button onClick={() => setTheme("dark")}
+                                    className="bg-slate-100 p-2 rounded-xl hover:translate-y-1 transition-transform"
+                                >{<RiMoonFill />}</button>
+                            )
+                        }
 
                         <div className="md:hidden">
                             <button onClick={() => setNavbar(!navbar)}>{navbar ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}</button>
@@ -86,7 +85,7 @@ const NavBar = () => {
                                         key={idx}
                                         to={item.page}
                                         className={
-                                            "block lg:inline-block text-neutral-900  hover:text-neutral-500 hover:border-b-2 hover:border-neutral-200 dark:text-teal-700 cursor-pointer"
+                                            "block lg:inline-block text-gray-500  hover:text-neutral-500 hover:border-b-2 hover:border-red-900 dark:text-gray-500 cursor-pointer"
                                         }
                                         activeClass="active"
                                         spy={true}
@@ -98,16 +97,7 @@ const NavBar = () => {
                                         {item.label}
                                     </Link>
                                 )
-                            })}{
-                                currentTheme === "dark" ? (
-                                    <button onClick={() => setTheme("light")}
-                                        className="bg-slate-100 p-2 rounded-xl hover:translate-y-1 transition-transform">{<RiSunLine size={25} color="black" />}</button>
-                                ) : (
-                                    <button onClick={() => setTheme("dark")}
-                                        className="bg-slate-100 p-2 rounded-xl hover:translate-y-1 transition-transform"
-                                    >{<RiMoonFill />}</button>
-                                )
-                            }
+                            })}
                         </div>
                     </div>
 

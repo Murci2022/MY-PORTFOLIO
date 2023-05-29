@@ -20,8 +20,8 @@ const AboutSection = () => {
     /* border-2 md:border-dotted border-red */
     return (
         <section id='about' className='text-center break-normal bg-stone-900 dark:bg-black text-teal-300 py-3 px-3 rounded-xl'>
-            <div className='mb-12 mt-6 mr-4 pb-6 md:pt-30 md:pb-30'>
-                <h1 className='text-end font-bold text-4xl text-red-500'>
+            <div className='my-6 mx-4 pb-6 md:pt-30 md:pb-30'>
+                <h1 className='text-center font-bold text-4xl text-red-500'>
                     About Me</h1>
 
 
@@ -31,7 +31,7 @@ const AboutSection = () => {
                         <h1 className='text-center text-xl2 font-bold mb-6 md:text-left'>Hello there!</h1>
                         <p> My name is{" "}
                             <span className='font-bold'>{"Mate Kamaras"}</span>, and I'm a{" "}
-                            <span className='font-bold'>{"Frontend Developer "}</span>, who absolutely loves what I do.{" "}
+                            <span className='font-bold'>{"Frontend Developer "}</span>, who absolutely loves what I do. Creating awesome digital experiences that blend art, functionality, and user-friendly design is simply awesome{" "}
 
 
 

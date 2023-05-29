@@ -10,7 +10,15 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    
+    
+   
     extend: {
+      colors:{
+        dblue:"#0D0E16",
+        lblue:"#4BA3E3",
+        hlblue:"#9EA8FF"
+      },
       animation:{
        bounce:"bounce 0.5s alternate cubic-bezier(0.95, 0.05, 0.795, 0.035) infinite",
       },
