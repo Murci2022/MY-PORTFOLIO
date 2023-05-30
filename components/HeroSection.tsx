@@ -76,10 +76,10 @@ const HeroSection = () => {
                         offset={-100}
                         duration={500}
                     >
-                        <RxDoubleArrowDown size={40} className="animate-bounce cursor-pointer mb-6" />
+                        <RxDoubleArrowDown size={40} className="animate-bounce cursor-pointer mb-6 text-gray-400" />
 
                     </Link>
-                    <div>   <h1 className='text-center font-bold text-xl text-red-500'>
+                    <div>   <h1 className='text-center font-bold text-2xl text-red-500'>
                         - About Me -</h1>
 
 
@@ -92,7 +92,7 @@ const HeroSection = () => {
                         offset={-100}
                         duration={500}
                     >
-                        <RxDoubleArrowDown size={40} className="animate-bounce cursor-pointer mb-6" />
+                        <RxDoubleArrowDown size={40} className="animate-bounce cursor-pointer mb-6 text-gray-400" />
 
                     </Link>
 
