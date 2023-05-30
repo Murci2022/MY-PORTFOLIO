@@ -45,7 +45,7 @@ const HeroSection = () => {
                         offset={-100}
                         duration={500}
                     >
-                        My Projects
+                        View Work
                     </Link>
                     <Link
                         to="techstack"
@@ -61,7 +61,7 @@ const HeroSection = () => {
                     </Link>
 
                 </div>
-                <div className='flex md:justify-center md:w-1/2 md:mt-2'>
+                <div className=' flex md:justify-center pt-6  md:w-1/2 md:mt-2'>
                     <Image className='rounded-md shadow-xl w-auto h-auto' src="/Mate2.png" alt='headshot' width={300} height={300} priority />
                 </div>
             </div>
