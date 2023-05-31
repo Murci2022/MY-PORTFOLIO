@@ -65,7 +65,7 @@ const HeroSection = () => {
                     <Image className='rounded-md shadow-xl w-auto h-auto' src="/Mate2.png" alt='headshot' width={300} height={300} priority />
                 </div>
             </div>
-            <div className='flex flex-col justify-center mb-6 md:mt-40' >
+            <div className='flex flex-col justify-center  md:mt-40' >
                 <div className='flex justify-evenly '>
 
                     <Link
@@ -79,11 +79,7 @@ const HeroSection = () => {
                         <RxDoubleArrowDown size={40} className="animate-bounce cursor-pointer mb-6 text-gray-400" />
 
                     </Link>
-                    <div>   <h1 className='text-center font-bold text-2xl text-red-500'>
-                        - About Me -</h1>
 
-
-                    </div>
                     <Link
                         to="about"
                         activeClass="active"
