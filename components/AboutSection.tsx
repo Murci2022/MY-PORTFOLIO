@@ -72,7 +72,7 @@ const AboutSection = () => {
 
                             </p>
                             <br />
-                            <div className='flex justify-between mt-6'>
+                            <div className=' flex justify-between mt-6'>
 
 
                                 <div>
