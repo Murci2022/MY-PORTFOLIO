@@ -78,12 +78,12 @@ const AboutSection = () => {
                                 <div>
                                     <ul className='list-none'>
                                         <li className='flex items-center'>
-                                            <Image src="/german.png" alt="German Flag" className="w-4 h-4 rounded-full mr-2" />
+                                            <img src="/german.png" alt="German Flag" className="w-4 h-4 rounded-full mr-2" />
                                             <span className='font-bold'>{"german "}</span> - [fluent]
                                         </li>
                                         <br />
                                         <li className='flex items-center'>
-                                            <Image src="/english.png" alt="English Flag" className="w-4 h-4 rounded-full mr-2" />
+                                            <img src="/english.png" alt="English Flag" className="w-4 h-4 rounded-full mr-2" />
                                             <span className='font-bold'>{"english"}</span> - [fluent]
                                         </li>
                                         <br /> </ul>
@@ -92,12 +92,12 @@ const AboutSection = () => {
                                 <div>
                                     <ul className='list-none'>
                                         <li className='flex items-center'>
-                                            <Image src="/japanese.png" alt="Japanese Flag" className="w-4 h-4 rounded-full mr-2" />
+                                            <img src="/japanese.png" alt="Japanese Flag" className="w-4 h-4 rounded-full mr-2" />
                                             <span className='font-bold'>{"japanese"}</span> - [conversational]
                                         </li>
                                         <br />
                                         <li className='flex items-center'>
-                                            <Image src="/hungarian.png" alt="Hungarian Flag" className="w-4 h-4 rounded-full mr-2" />
+                                            <img src="/hungarian.png" alt="Hungarian Flag" className="w-4 h-4 rounded-full mr-2" />
                                             <span className='font-bold'>{"hungarian"}</span> - [mothertounge]
                                         </li>
                                         <br />
