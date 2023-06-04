@@ -20,14 +20,14 @@ import TechStack from './TechStack'
 const AboutSection = () => {
     /* */
     return (
-        <section id='more' >
+        <section id="more" >
             <div >
                 {/*  <h1 className=' text-center font-bold text-2xl text-red-500 mb-4'>
                     - About Me -
                 </h1> */}
             </div>
 
-            <div className='  break-normal bg-stone-100  dark:bg-black text-gray-800 dark:text-gray-300 py-3 px-3 rounded-xl'>
+            <div className="  break-normal bg-stone-100  dark:bg-black text-gray-800 dark:text-gray-300 py-3 px-3 rounded-xl">
 
 
 
@@ -38,7 +38,7 @@ const AboutSection = () => {
 
 
                 <hr className=' w-6 h-1 mx-auto my-4  border-0 rounded'></hr></div>*/}
-                <div className='my-2 mx-4  md:pt-30 md:pb-30'>
+                <div className="my-2 mx-4  md:pt-30 md:pb-30">
 
 
                     <div className='flex flex-col space-y-10 items-stretch justify-center align-top  md:flex-row md:text-left md:p-4 md:space-y-0 md:space-x-10 '>
