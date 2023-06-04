@@ -19,7 +19,7 @@ const HeroSection = () => {
                 </div> */}
                 {/* BLOCK B */}
                 <div className='
-               text-center md:w-3/5 md:mt-2 md:pl-4 justify-center border-r-2 border-solid border-red-500'>
+               text-center md:w-3/5 md:mt-2 md:pl-4 justify-center md:border-r-2 md:border-solid md:border-red-500'>
                     <div className="my-1 animate-bounce  text-gray-800 dark:text-gray-500">
                         hello konnichiwa szia grüssgott moin,moin!
                     </div>
@@ -45,7 +45,7 @@ const HeroSection = () => {
                         offset={-100}
                         duration={500}
                     >
-                        My Projects
+                        View Work
                     </Link>
                     <Link
                         to="techstack"
@@ -61,22 +61,44 @@ const HeroSection = () => {
                     </Link>
 
                 </div>
-                <div className='flex md:justify-center md:w-1/2 md:mt-2'>
+                <div className=' flex md:justify-center pt-10  md:w-1/2 md:mt-2'>
                     <Image className='rounded-md shadow-xl w-auto h-auto' src="/Mate2.png" alt='headshot' width={300} height={300} priority />
                 </div>
             </div>
-            <div className='flex flex-row justify-center  md:mt-40' >
-                <Link
-                    to="about"
-                    activeClass="active"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                >
-                    <RxDoubleArrowDown size={40} className="animate-bounce cursor-pointer mb-6" />
+            <div className='flex flex-col justify-center  md:mt-40' >
+                <div className='flex justify-evenly '>
 
-                </Link>
+                    <Link
+                        to="about"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={500}
+                    >
+                        <RxDoubleArrowDown size={40} className="animate-bounce cursor-pointer mb-6 text-gray-400" />
+
+                    </Link>
+
+                    <Link
+                        to="about"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={500}
+                    >
+                        <RxDoubleArrowDown size={40} className="animate-bounce cursor-pointer mb-6 text-gray-400" />
+
+                    </Link>
+
+                </div>
+
+
+
+
+
+
 
             </div>
         </section>

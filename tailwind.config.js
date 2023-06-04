@@ -15,6 +15,7 @@ module.exports = {
    
     extend: {
       colors:{
+        plate:"#20293A",
         dblue:"#0D0E16",
         lblue:"#4E44AC",
         hlblue:"#9EA8FF",
