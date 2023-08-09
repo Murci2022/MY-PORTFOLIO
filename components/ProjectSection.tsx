@@ -21,7 +21,7 @@ const projects = [
     name: 'Password Generator',
     description:
       'An app that generates secure passwords and empower users with a variety of features and options.',
-    image: '/Password-generator.png',
+    image: '/password-generator.png',
     github: '#',
     link: '#',
     techstack: 'Vanilla Javascript',
