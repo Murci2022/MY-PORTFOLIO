@@ -65,10 +65,10 @@ const HeroSection = () => {
             Tech Stack
           </Link>
         </div>
-        <div className=' flex md:justify-center pt-10  md:w-1/2 md:mt-2'>
+        <div className=' flex justify-center  md:w-1/2 md:mt-2'>
           <Image
-            className='rounded-md shadow-xl w-auto h-auto'
-            src='/Mate2.png'
+            className='rounded-md shadow-xl w-300 h-auto hidden md:block'
+            src='/MateKamaras.png'
             alt='headshot'
             width={300}
             height={300}
