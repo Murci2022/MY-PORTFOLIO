@@ -6,7 +6,6 @@ import { FaGithubSquare } from 'react-icons/fa';
 import { HiLink } from 'react-icons/hi';
 
 const projects = [
-  /* ,FaGithubSquare BsGithub */
   {
     name: 'Matchbox Shopping Cart',
     description:
@@ -22,8 +21,8 @@ const projects = [
     description:
       'An app that generates secure passwords and empower users with a variety of features and options.',
     image: '/password-generator.png',
-    github: '#',
-    link: '#',
+    github: 'https://github.com/Murci2022/Password-generator',
+    link: 'https://password-generator-xi-drab.vercel.app/',
     techstack: 'Vanilla Javascript',
     hashtag: '#Vanilla_JS',
   },
@@ -47,8 +46,6 @@ const projects = [
     link: 'https://api-powered-app-group-work.vercel.app/',
   }, */
 ];
-/*  className='text-center font-bold text-4xl'*/
-/* */
 
 const ProjectSection = () => {
   return (
@@ -96,16 +93,9 @@ const ProjectSection = () => {
                       <FaGithubSquare className='text-xl mr-2' />
                       <span text-lg>my code on Github</span>
                     </Link>
-
-                    {/* <Link href={project.link} target='_blank' style={{ fontSize: "24px" }} ><HiLink />INVOICIFIER</Link> */}
-                    {/*    <HiLink className='text-xl mr-2' /><span className='text-lg '>{project.hashtag}</span> */}
-                    <Link
-                      href='#'
-                      target='_blank'
-                      className='hover:-translate-y-1  transition-transform cursor-pointer flex  items-center ml-6 md:ml-0 mt-8'
-                    >
+                    <div className=' flex  items-center ml-6 md:ml-0 mt-8'>
                       <span className='text-lg '>{project.hashtag}</span>
-                    </Link>
+                    </div>
                   </div>
                 </div>
               </div>
