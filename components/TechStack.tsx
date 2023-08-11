@@ -9,8 +9,6 @@ import {
 import { AiOutlineGithub } from 'react-icons/ai';
 import { SiMongodb } from 'react-icons/si';
 
-import { RiMoonFill } from 'react-icons/ri';
-
 const TechStack = () => {
   const skills = [
     {

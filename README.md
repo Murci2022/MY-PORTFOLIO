@@ -118,6 +118,6 @@ Crafting my Portfolio Website with Next.js expanded my skills in responsive desi
 
 Thank you to Danny Adams!
 
-### Author
+## Author
 
 - Website - [Murci2022/M.K.](https://portfolio-mate.vercel.app/)
