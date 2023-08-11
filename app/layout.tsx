@@ -17,6 +17,7 @@ export default function RootLayout({
         <ThemeProvider
           enableSystem={true}
           attribute='class'
+          defaultTheme='dark'
         >
           <NavBar />
           <Home />
