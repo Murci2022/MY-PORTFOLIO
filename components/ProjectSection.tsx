@@ -37,14 +37,16 @@ const projects = [
     techstack: 'Next.js',
     hashtag: '#Next.js',
   },
-  /*   {
-    name: 'Pokèmon Cards',
+  {
+    name: 'My Portfolio Website',
     description:
-      'Collectible Pokémon cards: Unleash the power of pocket monsters!',
-    image: '/PokemonCards.png',
-    github: 'https://github.com/Murci2022/Pokemon-Cards',
-    link: 'https://api-powered-app-group-work.vercel.app/',
-  }, */
+      'This project showcases skills, projects, and provides insights into my journey as a web developer',
+    image: '/My-Portfolio-Website.png',
+    github: 'https://github.com/Murci2022/Invoicify-Capstone-Project',
+    link: 'https://invoicify-capstone.vercel.app/',
+    techstack: 'Next.js, Typescript',
+    hashtag: '#Next.js #Typescript',
+  },
 ];
 
 const ProjectSection = () => {

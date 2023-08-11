@@ -16,7 +16,7 @@
 
 ## Overview
 
-Welcome to my personal portfolio website built using Next.js! This project showcases my skills, projects, and provides insights into my journey as a web developer. The website is designed to highlight my expertise, share my experiences, and connect with fellow developers and potential collaborators.
+Welcome to my personal portfolio website built using Next.js and Typescript. This project showcases skills, projects, and provides insights into my journey as a web developer.
 
 ## Welcome
 
