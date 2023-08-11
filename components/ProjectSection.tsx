@@ -14,7 +14,7 @@ const projects = [
     github: '#',
     link: '#',
     techstack: 'React Redux-Toolkit',
-    hashtag: '#REDUX-TOOLKIT React',
+    hashtag: '#REDUX-TOOLKIT #React.js',
   },
   {
     name: 'Password Generator',
@@ -37,14 +37,16 @@ const projects = [
     techstack: 'Next.js',
     hashtag: '#Next.js',
   },
-  /*   {
-    name: 'Pokèmon Cards',
+  {
+    name: 'My Portfolio Website',
     description:
-      'Collectible Pokémon cards: Unleash the power of pocket monsters!',
-    image: '/PokemonCards.png',
-    github: 'https://github.com/Murci2022/Pokemon-Cards',
-    link: 'https://api-powered-app-group-work.vercel.app/',
-  }, */
+      'This project showcases skills, projects, and provides insights into my journey as a web developer',
+    image: '/My-Portfolio-Website.png',
+    github: 'https://github.com/Murci2022/Invoicify-Capstone-Project',
+    link: 'https://invoicify-capstone.vercel.app/',
+    techstack: 'Next.js, Typescript',
+    hashtag: '#Next.js #Typescript',
+  },
 ];
 
 const ProjectSection = () => {
@@ -79,7 +81,7 @@ const ProjectSection = () => {
                 <div className='md:w-1/2 md:text-start'>
                   <h1 className='text-4xl my-6'>{project.name}</h1>
                   <h3>{project.techstack} project</h3>
-                  <hr />
+                  <hr className='dark:border-white border-black' />
                   <br />
                   <p className='text-lg leading-7 mb-3 '>
                     {project.description}
