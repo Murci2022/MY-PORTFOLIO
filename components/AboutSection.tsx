@@ -16,8 +16,8 @@ const AboutSection = () => {
                 My name is
                 <span className=' text-gray-400'>{' Mate Kamaras'}</span>. I'm a
                 <span className=' text-gray-400'>{' Frontend Developer '}</span>
-                who absolutely loves what I do. Creating awesome digital
-                experiences that blends together
+                who absolutely loves what I do: creating awesome digital
+                experiences that blend
                 <span className=' text-gray-400'>{' art'}</span>,
                 <span className=' text-gray-400'>{' functionality'}</span>, and
                 <span className=' text-gray-400'>
@@ -29,7 +29,7 @@ const AboutSection = () => {
               <p>
                 <span className=' text-gray-400'>{'Thechnology, AI '}</span>
                 and the
-                <span className=' text-gray-400'>{' Universe'}</span>, have an
+                <span className=' text-gray-400'>{' universe'}</span>, have an
                 irresistible allure that captivates my mind. I find myself
                 endlessly fascinated by the
                 <span className=' text-gray-400'>
@@ -48,7 +48,7 @@ const AboutSection = () => {
                 some
                 <span className=' text-gray-400'>{' art'}</span>, jet-setting to
                 new destinations, or diving headfirst into learning more
-                <span className=' text-gray-400'>{' japanese'}</span>. With
+                <span className=' text-gray-400'>{' Japanese'}</span>. With
                 everything I take on, I bring a mix of
                 <span className=' text-gray-400'>{' creativity'}</span>,
                 <span className=' text-gray-400'>{' technical skills '}</span>

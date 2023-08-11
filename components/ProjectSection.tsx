@@ -9,9 +9,9 @@ const projects = [
   {
     name: 'Matchbox Shopping Cart',
     description:
-      'This Matchbox Shopping Cart App includes all the cool features redux toolkit has to offers, things like store, slice, reducers, action creators.',
+      'This Matchbox Shopping Cart App includes all the cool features that Redux Toolkit has to offer, such as store, slices, reducers, and action creators.',
     image: '/matchbox-shopping-cart.png',
-    github: '#',
+    github: 'https://github.com/Murci2022/matchbox-shopping-cart',
     link: '#',
     techstack: 'React Redux-Toolkit',
     hashtag: '#REDUX-TOOLKIT #React.js',
@@ -19,7 +19,7 @@ const projects = [
   {
     name: 'Password Generator',
     description:
-      'An app that generates secure passwords and empower users with a variety of features and options.',
+      'An app that generates secure passwords and empowers the user with a variety of features and options.',
     image: '/password-generator.png',
     github: 'https://github.com/Murci2022/Password-generator',
     link: 'https://password-generator-xi-drab.vercel.app/',
@@ -30,7 +30,7 @@ const projects = [
   {
     name: 'Invoicify',
     description:
-      'Invoicify is an easy solution, to create an invoices in a simple way and print it out, even from a mobil-device.',
+      'Invoicify is an easy solution to create invoices in a simple way and print them out, even from a mobile device.',
     image: '/Invoicify.png',
     github: 'https://github.com/Murci2022/Invoicify-Capstone-Project',
     link: 'https://invoicify-capstone.vercel.app/',

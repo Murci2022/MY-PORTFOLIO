@@ -46,7 +46,7 @@ const HeroSection = () => {
             offset={-100}
             duration={500}
           >
-            View Work
+            View Projects
           </Link>
           <Link
             to='techstack'
