@@ -22,7 +22,7 @@ Welcome to my personal portfolio website built using Next.js and Typescript. Thi
 
 ## The Challange
 
-Creating my own portfolio website using Next.js and TypeScript was an exciting challenge.The goal was to design a user-friendly and visually appealing platform that not only highlights my projects and expertise but also provides visitors with an engaging experience.
+Creating my own portfolio website using Next.js and TypeScript was an exciting challenge.The goal was to design a user-friendly and visually appealing platform with dark mode that not only highlights my projects and expertise but also provides visitors with an engaging experience.
 
 Throughout the development process, I focused on implementing responsive design, optimizing performance, and ensuring seamless navigation. Incorporating TypeScript added an extra layer of type safety, enabling more robust and maintainable code.
 
@@ -32,7 +32,7 @@ Throughout the development process, I focused on implementing responsive design,
 
 ## Links
 
-- Live Site URL:
+- Live Site URL:(https://portfolio-mate.vercel.app/)
 
 ## Build with
 
