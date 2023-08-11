@@ -26,6 +26,7 @@ const NAV_ITEMS: Array<NavItem> = [
 
 const NavBar = () => {
   const [initialRender, setInitialRender] = useState(false); // Set initialRender to false
+  const [activeLink, setActiveLink] = useState('home');
 
   useEffect(() => {
     setInitialRender(false);
@@ -86,15 +87,22 @@ const NavBar = () => {
                   <Link
                     key={idx}
                     to={item.page}
-                    className={
-                      'block lg:inline-block text-gray-800  hover:text-neutral-500 hover:border-b-2 hover:border-red-900 dark:text-gray-500 cursor-pointer'
+                    className={`block lg:inline-block text-gray-800  hover:text-neutral-500 ${
+                      activeLink === item.page
+                        ? 'border-b-2 border-red-900'
+                        : ''
                     }
+                      
+                     hover:border-b-2 hover:border-red-900 dark:text-gray-500 cursor-pointer`}
                     activeClass='active'
                     spy={true}
                     smooth={true}
                     offset={-100}
                     duration={500}
-                    onClick={() => setNavbar(!navbar)}
+                    onClick={() => {
+                      setNavbar(!navbar);
+                      setActiveLink(item.page);
+                    }}
                   >
                     {item.label}
                   </Link>

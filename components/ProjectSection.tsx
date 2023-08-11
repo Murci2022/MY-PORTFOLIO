@@ -14,7 +14,7 @@ const projects = [
     github: '#',
     link: '#',
     techstack: 'React Redux-Toolkit',
-    hashtag: '#REDUX-TOOLKIT React',
+    hashtag: '#REDUX-TOOLKIT #React.js',
   },
   {
     name: 'Password Generator',
@@ -81,7 +81,7 @@ const ProjectSection = () => {
                 <div className='md:w-1/2 md:text-start'>
                   <h1 className='text-4xl my-6'>{project.name}</h1>
                   <h3>{project.techstack} project</h3>
-                  <hr />
+                  <hr className='dark:border-white border-black' />
                   <br />
                   <p className='text-lg leading-7 mb-3 '>
                     {project.description}
