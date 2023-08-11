@@ -1,7 +1,3 @@
-# Shopping cart app
-
-![preview for My-Portfolio-website](/public/My-Portfolio-Website.png)
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -37,7 +33,7 @@ Throughout the development process, I focused on implementing responsive design,
 ## Build with
 
 - Semantic HTML5 markup
-- Tailwind css
+- [Tailwind.css](https://tailwindcss.com/docs/guides/nextjs)
 - Mobile-first workflow
 - [Next.js](https://nextjs.org/docs)
 
