@@ -42,8 +42,8 @@ const projects = [
     description:
       'This project showcases skills, projects, and provides insights into my journey as a web developer',
     image: '/My-Portfolio-Website.png',
-    github: 'https://github.com/Murci2022/Invoicify-Capstone-Project',
-    link: 'https://invoicify-capstone.vercel.app/',
+    github: 'https://github.com/Murci2022/PORTFOLIO_MATE',
+    link: 'https://portfolio-mate.vercel.app/',
     techstack: 'Next.js, Typescript',
     hashtag: '#Next.js #Typescript',
   },
@@ -67,8 +67,8 @@ const ProjectSection = () => {
                   <Link
                     href={project.link}
                     target='_blank'
+                    rel='noopener noreferrer'
                   >
-                    {' '}
                     <Image
                       src={project.image}
                       alt='imageOfProject'

@@ -42,14 +42,14 @@ const NavBar = () => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <header className='w-full  mx-auto  px-4 sm:px-20 fixed top-0 z-50 bg-light shadow dark:shadow-none dark:bg-dblue '>
+    <header className='w-full  mx-auto  px-4 pt-2 sm:px-20 fixed top-0 z-50 bg-light shadow dark:shadow-none dark:bg-dblue '>
       <div className='justify-between md:items-center md:flex'>
         <div>
           <div className='flex items-center justify-between py-3'>
             {currentTheme === 'dark' ? (
               <button
                 onClick={() => setTheme('light')}
-                className=' p-2 rounded-xl hover:translate-y-1 transition-transform'
+                className=' p-1 rounded border border-black hover:border-gray-400 dark:border-gray-500 hover:translate-y-1 transition-transform'
               >
                 {
                   <RiSunLine
@@ -62,7 +62,7 @@ const NavBar = () => {
             ) : (
               <button
                 onClick={() => setTheme('dark')}
-                className=' p-2 rounded-xl hover:translate-y-1 transition-transform'
+                className=' p-1  rounded border hover:translate-y-1 transition-transform'
               >
                 {<RiMoonFill />}
               </button>
