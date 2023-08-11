@@ -25,7 +25,7 @@ const NAV_ITEMS: Array<NavItem> = [
 ];
 
 const NavBar = () => {
-  const [initialRender, setInitialRender] = useState(false); // Set initialRender to false
+  const [initialRender, setInitialRender] = useState(true); // Set initialRender to false
   const [activeLink, setActiveLink] = useState('home');
 
   useEffect(() => {
