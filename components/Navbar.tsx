@@ -93,7 +93,7 @@ const NavBar = () => {
                         : ''
                     }
                       
-                     hover:border-b-2 hover:border-red-900 dark:text-gray-500 cursor-pointer`}
+                     hover:border-b-2 hover:border-red-900 dark:text-white hover:dark:text-gray-400 cursor-pointer`}
                     activeClass='active'
                     spy={true}
                     smooth={true}

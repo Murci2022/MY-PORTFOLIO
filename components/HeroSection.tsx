@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div
         className='
             
-            flex flex-col text-center items-center justify-center mt-60 mb-80 md:mb-60 py-16 md:flex-row md:space-x-4 md:text-left md:pt-35 sm:pt-10'
+            flex flex-col text-center items-center justify-center mt-40 mb-80 md:mb-60 py-16 md:flex-row md:space-x-4 md:text-left md:pt-35 sm:pt-10'
       >
         <div
           className='
@@ -48,7 +48,7 @@ const HeroSection = () => {
             </Link>
             <Link
               to='techstack'
-              className=' font-semibold rounded-md px-4 py-2.5 lg:px-6 lg:py-3 bg-none border-2 text-black dark:text-white border-black  dark:border dark:border-white shadow-xl hover:bg-black hover:dark:bg-white hover:dark:text-black hover:dark:border hover:dark:border-black hover:text-white active:ring-2 dark:active:ring-light active:ring-offset-2 active:ring-offset-light cursor-pointer'
+              className=' font-semibold rounded-md px-4 py-2.5 lg:px-6 lg:py-3 bg-none border-2 text-black dark:text-white border-black dark:border-light shadow-xl hover:bg-black  hover:dark:text-black hover:text-light  hover:dark:border-light  hover:dark:bg-light active:ring-2 dark:active:ring-light active:ring-offset-2 active:ring-offset-light cursor-pointer'
               activeClass='active'
               spy={true}
               smooth={true}
