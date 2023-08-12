@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <section
       id='home'
-      className='md:mt-40  '
+      className='md:mt-30  '
     >
       <div
         className='
@@ -34,32 +34,34 @@ const HeroSection = () => {
             </span>{' '}
             - based in Hamburg, Germany.
           </p>
-          <Link
-            to='projects'
-            className='text-neutral-100 font-semibold mr-4 rounded-md px-4 py-2.5 lg:px-6 lg:py-3 bg-lblue shadow-xl hover:bg-hlblue active:ring-2 active:ring-blue-500 active:ring-offset-2 active:ring-offset-blue-500 cursor-pointer'
-            activeClass='active'
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            View Projects
-          </Link>
-          <Link
-            to='techstack'
-            className='text-neutral-100 font-semibold rounded-md px-4 py-2.5 lg:px-6 lg:py-3 bg-lblue shadow-xl hover:bg-hlblue active:ring-2 active:ring-blue-500 active:ring-offset-2 active:ring-offset-blue-500 cursor-pointer'
-            activeClass='active'
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            Tech Stack
-          </Link>
+          <div className='mt-6'>
+            <Link
+              to='projects'
+              className='text-neutral-100 font-semibold mr-4 rounded-md px-4 py-2.5 lg:px-6 lg:py-3 bg-hlblue dark:bg-hlblue  border-2 border-hlblue dark:border-hlblue shadow-xl hover:bg-lblue hover:border-lblue dark:hover:bg-lblue dark:hover:border-lblue  active:ring-2 dark:active:ring-light dark:active:ring-offset-2 dark:active:ring-offset-light cursor-pointer'
+              activeClass='active'
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              View Projects
+            </Link>
+            <Link
+              to='techstack'
+              className=' font-semibold rounded-md px-4 py-2.5 lg:px-6 lg:py-3 bg-none border-2 text-black dark:text-white border-black  dark:border dark:border-white shadow-xl hover:bg-black hover:dark:bg-white hover:dark:text-black hover:dark:border hover:dark:border-black hover:text-white active:ring-2 dark:active:ring-light active:ring-offset-2 active:ring-offset-light cursor-pointer'
+              activeClass='active'
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Tech Stack
+            </Link>
+          </div>
         </div>
-        <div className=' flex justify-center  md:w-1/2 md:mt-2'>
+        <div className=' flex justify-center p-6  lg:p-2 md:w-1/2 md:mt-2'>
           <Image
-            className='rounded-md shadow-xl w-300 h-auto p-6 lg:p-2 hidden md:block'
+            className='rounded-md shadow-xl w-300 h-auto hidden md:block'
             src='/MateKamaras.png'
             alt='headshot'
             width={300}

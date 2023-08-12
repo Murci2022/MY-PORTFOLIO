@@ -49,7 +49,7 @@ const NavBar = () => {
             {currentTheme === 'dark' ? (
               <button
                 onClick={() => setTheme('light')}
-                className=' p-1 rounded border border-black hover:border-gray-400 dark:border-gray-500 hover:translate-y-1 transition-transform'
+                className=' p-1 rounded-md border border-black hover:border-gray-400 dark:border-gray-500 hover:translate-y-1 transition-transform'
               >
                 {
                   <RiSunLine

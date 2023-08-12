@@ -8,11 +8,11 @@ const AboutSection = () => {
       <h1 className='text-center text-red-500 mb-6 font-bold text-2xl pt-20 pb-5'>
         - About Me. -
       </h1>
-      <div className='  break-normal bg-stone-100  dark:bg-black text-gray-800 dark:text-gray-300 py-3 px-3 rounded-xl'>
+      <div className='  break-normal bg-stone-100  dark:bg-black text-gray-800 dark:text-gray-300 py-3 px-3 rounded-sm'>
         <div className='my-2 mx-4  md:pt-30 md:pb-30'>
           <div className='flex flex-col space-y-10 items-stretch justify-center align-top  md:flex-row md:text-left md:p-4 md:space-y-0 md:space-x-10 '>
             <div className='md:w-1/2 mt-4 md:mt-0 dark:text-gray-500'>
-              <h1 className='text-xl2 mb-6 md:text-left dark:text-gray-400'>
+              <h1 className='text-xl mb-6 md:text-left dark:text-gray-400'>
                 Hello there!
               </h1>
               <p>
@@ -38,7 +38,7 @@ const AboutSection = () => {
                   {'Thechnology, AI '}
                 </span>
                 and the
-                <span className=' dark:text-gray-400'>{' niverse'}</span>, have
+                <span className=' dark:text-gray-400'>{' universe'}</span>, have
                 an irresistible allure that captivates my mind. I find myself
                 endlessly fascinated by the
                 <span className=' dark:text-gray-400'>
@@ -71,7 +71,8 @@ const AboutSection = () => {
                 visually appealing and engaging place.
               </p>
               <br />
-              <div className='flex justify-between md:block lg:flex lg:justify-between mt-6'>
+              <h2 className='text-xl hidden lg:block mt-6'>Languages:</h2>
+              <div className='block xs:flex xs:justify-between md:block lg:flex lg:justify-between mt-6'>
                 <div>
                   <ul className='list-none'>
                     <li className='flex items-center'>
