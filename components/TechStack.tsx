@@ -35,26 +35,30 @@ const TechStack = () => {
         <TbBrandNextjs className='text-black  dark:text-white text-6xl m-2' />
       ),
     },
+
     {
-      skill: 'Git',
+      skill: 'Tailwindcss',
       icon: (
-        <AiOutlineGithub className='text-black  dark:text-white text-6xl m-2' />
+        <SiTailwindcss className='text-black  dark:text-white text-6xl m-2' />
       ),
     },
+
     {
       skill: 'MongoDB',
       icon: <SiMongodb className='text-black  dark:text-white text-6xl m-2' />,
     },
+
     {
       skill: 'Typescript',
       icon: (
         <TbBrandTypescript className='text-black  dark:text-white text-6xl m-2' />
       ),
     },
+
     {
-      skill: 'Tailwindcss',
+      skill: 'Git',
       icon: (
-        <SiTailwindcss className='text-black  dark:text-white text-6xl m-2' />
+        <AiOutlineGithub className='text-black  dark:text-white text-6xl m-2' />
       ),
     },
   ];

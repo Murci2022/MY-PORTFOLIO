@@ -13,7 +13,7 @@ const Footer = () => {
         dark:bg-neutral-200'
       />
       <div className='mx-auto p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between'>
-        <div className=' flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100'>
+        <div className=' flex flex-row items-center justify-center space-x-1 text-black dark:text-neutral-100'>
           <a>@ 2023 Mate Kamaras</a>
         </div>
         <div className='flex flex-row items-center justify-center space-x-2 mb-1 dark:text-white'>
