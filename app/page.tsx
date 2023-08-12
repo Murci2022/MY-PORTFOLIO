@@ -1,7 +1,6 @@
 import HeroSection from '../components/HeroSection';
 import AboutSection from '../components/AboutSection';
 import ProjectSection from '../components/ProjectSection';
-import TechStack from '../components/TechStack';
 
 export default function Home() {
   return (
