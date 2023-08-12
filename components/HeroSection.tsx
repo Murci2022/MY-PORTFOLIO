@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div
         className='
             
-            flex flex-col text-center items-center justify-center mt-60 mb-60 md:mb-0 py-16 md:flex-row md:space-x-4 md:text-left md:pt-35 sm:pt-10'
+            flex flex-col text-center items-center justify-center mt-60 mb-80 md:mb-60 py-16 md:flex-row md:space-x-4 md:text-left md:pt-35 sm:pt-10'
       >
         <div
           className='
@@ -67,40 +67,6 @@ const HeroSection = () => {
             priority
           />
         </div>
-      </div>
-      <div className='flex flex-col justify-center  md:mt-40'>
-        <h1 className='text-center text-red-500 mb-6 font-bold text-2xl pt-20 pb-5 hidden md:block'>
-          - About Me -
-        </h1>
-        {/*  <div className='flex justify-evenly '>
-          <Link
-            to='about'
-            activeClass='active'
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-             <RxDoubleArrowDown
-              size={40}
-              className='animate-bounce cursor-pointer mb-6 text-gray-400'
-            />
-          </Link>
-
-          <Link
-            to='about'
-            activeClass='active'
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            <RxDoubleArrowDown
-              size={40}
-              className='animate-bounce cursor-pointer mb-6 text-gray-400'
-            />
-          </Link>
-        </div> */}
       </div>
     </section>
   );
