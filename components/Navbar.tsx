@@ -1,4 +1,4 @@
-'use client'; // this is a client component
+'use client';
 import '../styles/globals.css';
 import React from 'react';
 import { useState, useEffect } from 'react';
@@ -25,7 +25,7 @@ const NAV_ITEMS: Array<NavItem> = [
 ];
 
 const NavBar = () => {
-  const [initialRender, setInitialRender] = useState(true); // Set initialRender to false
+  const [initialRender, setInitialRender] = useState(true);
   const [activeLink, setActiveLink] = useState('home');
 
   useEffect(() => {

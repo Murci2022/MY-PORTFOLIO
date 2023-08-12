@@ -1,9 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs';
 import { FaGithubSquare } from 'react-icons/fa';
-import { HiLink } from 'react-icons/hi';
 
 const projects = [
   {
