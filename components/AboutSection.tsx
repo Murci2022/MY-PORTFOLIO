@@ -8,7 +8,7 @@ const AboutSection = () => {
       <h1 className='text-center text-red-500 mb-6 font-bold text-2xl pt-20 pb-5'>
         - About Me -
       </h1>
-      <div className='  break-normal bg-stone-100  dark:bg-black text-gray-800 dark:text-gray-300 py-3 px-3 rounded-sm'>
+      <div className='  break-normal bg-slate-300  dark:bg-black text-gray-800 dark:text-gray-300 py-3 px-3 rounded-lg'>
         <div className='my-2 mx-4  md:pt-30 md:pb-30'>
           <div className='flex flex-col space-y-10 items-stretch justify-center align-top  md:flex-row md:text-left md:p-4 md:space-y-0 md:space-x-10 '>
             <div className='md:w-1/2 mt-4 md:mt-0 dark:text-gray-500'>
@@ -83,7 +83,7 @@ const AboutSection = () => {
                         height={4}
                         className='w-4 h-4 rounded-full mr-2'
                       />
-                      <span className='font-bold text-gray-400'>
+                      <span className='font-bold dark:text-gray-400'>
                         {'German '}
                         {' - '}
                       </span>{' '}
@@ -98,7 +98,7 @@ const AboutSection = () => {
                         height={4}
                         className='w-4 h-4 rounded-full mr-2'
                       />
-                      <span className='font-bold text-gray-400'>
+                      <span className='font-bold dark:text-gray-400'>
                         {'English '}
                         {' - '}
                       </span>
@@ -115,9 +115,9 @@ const AboutSection = () => {
                         alt='Japanese Flag'
                         width={4}
                         height={4}
-                        className='w-4 h-4 rounded-full mr-2'
+                        className='w-4 h-4 border rounded-full mr-2'
                       />
-                      <span className='font-bold text-gray-400'>
+                      <span className='font-bold dark:text-gray-400'>
                         {'Japanese '}
                         {' - '}
                       </span>
@@ -132,7 +132,7 @@ const AboutSection = () => {
                         height={4}
                         className='w-4 h-4 rounded-full mr-2'
                       />
-                      <span className='font-bold text-gray-400'>
+                      <span className='font-bold dark:text-gray-400'>
                         {'Hungarian '}
                         {' - '}
                       </span>

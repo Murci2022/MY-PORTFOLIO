@@ -6,14 +6,11 @@ import { RxDoubleArrowDown } from 'react-icons/rx';
 
 const HeroSection = () => {
   return (
-    <section
-      id='home'
-      className='md:mt-30  '
-    >
+    <section id='home'>
       <div
         className='
             
-            flex flex-col text-center items-center justify-center mt-40 mb-80 md:mb-60 py-16 md:flex-row md:space-x-4 md:text-left md:pt-35 sm:pt-10'
+            flex flex-col text-center items-center justify-center mt-60 mb-80 md:mb-60 py-16 md:flex-row md:space-x-4 md:text-left md:pt-35 sm:pt-10'
       >
         <div
           className='
@@ -23,12 +20,12 @@ const HeroSection = () => {
             hello konnichiwa szia grüssgott moin,moin!
           </div>
           <div>
-            <h1 className='font-bold text-6xl mt-6 lg:text-7xl md:mt-2'>
+            <h1 className='font-bold text-6xl mt-6 p-2 lg:text-7xl md:mt-2'>
               Mate Kamaras
             </h1>
           </div>
 
-          <p className='text-lg mt-4 mb-6 md:tx-2xl'>
+          <p className='text-lg mt-4 mb-6 p-2 md:tx-2xl'>
             <span className='font-semibold text-gray-800 dark:text-gray-500'>
               Software Engineer
             </span>{' '}
