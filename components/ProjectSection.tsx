@@ -41,7 +41,7 @@ const projects = [
     name: 'My Portfolio Website',
     description:
       'This project showcases skills, projects, and provides insights into my journey as a web developer',
-    image: '/My-Portfolio-Website.png',
+    image: '/my-portfolio-website1.png',
     github: 'https://github.com/Murci2022/PORTFOLIO_MATE',
     link: 'https://portfolio-mate.vercel.app/',
     techstack: 'Next.js, Typescript',
@@ -74,16 +74,22 @@ const ProjectSection = () => {
                       alt='imageOfProject'
                       width={1000}
                       height={1000}
-                      className='rounded-xl shadow-xl w-full h-auto hover:opacity-70 '
+                      className={`rounded-xl ${
+                        project.name === 'My Portfolio Website'
+                          ? 'border-gray-800 border'
+                          : ''
+                      } shadow-xl w-full h-auto hover:opacity-70 `}
                     />
                   </Link>
                 </div>
                 <div className='md:w-1/2 md:text-start'>
-                  <h1 className='text-4xl my-6'>{project.name}</h1>
-                  <h3>{project.techstack} project</h3>
-                  <hr className='dark:border-white border-black' />
+                  <h1 className='text-4xl mt-6'>{project.name}</h1>
+                  <hr className='hidden md:block dark:border-white border-black ' />
+                  <h3 className='hidden md:block'>
+                    {project.techstack} project
+                  </h3>
                   <br />
-                  <p className='text-lg leading-7 mb-3 '>
+                  <p className='text-lg leading-7 mb-3 dark:text-light '>
                     {project.description}
                   </p>
                   <div className='flex justify-center md:block'>

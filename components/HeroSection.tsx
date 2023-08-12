@@ -6,7 +6,6 @@ import { HiArrowDown } from 'react-icons/hi';
 import { RxDoubleArrowDown } from 'react-icons/rx';
 
 const HeroSection = () => {
-  /*border-4 border-solid border-white */
   return (
     <section
       id='home'
@@ -31,9 +30,8 @@ const HeroSection = () => {
           </div>
 
           <p className='text-lg mt-4 mb-6 md:tx-2xl'>
-            {' '}
             <span className='font-semibold text-gray-800 dark:text-gray-500'>
-              Junior Software Engineer
+              Software Engineer
             </span>{' '}
             - based in Hamburg, Germany.
           </p>
