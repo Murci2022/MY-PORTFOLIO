@@ -10,26 +10,26 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    
-    
-   
     extend: {
-      colors:{
-        plate:"#20293A",
-        dblue:"#0D0E16",
-        lblue:"#4E44AC",
-        hlblue:"#9EA8FF",
-        light:"#E5E5E5"
+      screens: {
+        xs: '478px',
       },
-      animation:{
-       bounce:"bounce 0.5s alternate cubic-bezier(0.95, 0.05, 0.795, 0.035) infinite",
+      colors: {
+        plate: '#20293A',
+        dblue: '#0D0E16',
+        lblue: '#00365C',
+        hlblue: '#1470B9',
+        light: '#E5E5E5',
       },
-      keyframes:{
-         bounce: {
-          from: { transform: "translateY(10px)" },
-          to: { transform: "translateY(0)" },
+      animation: {
+        bounce:
+          'bounce 0.5s alternate cubic-bezier(0.95, 0.05, 0.795, 0.035) infinite',
+      },
+      keyframes: {
+        bounce: {
+          from: { transform: 'translateY(10px)' },
+          to: { transform: 'translateY(0)' },
         },
-
       },
     },
   },

@@ -7,7 +7,7 @@ import {
   TbBrandTypescript,
 } from 'react-icons/tb';
 import { AiOutlineGithub } from 'react-icons/ai';
-import { SiMongodb } from 'react-icons/si';
+import { SiMongodb, SiTailwindcss } from 'react-icons/si';
 
 const TechStack = () => {
   const skills = [
@@ -51,6 +51,12 @@ const TechStack = () => {
         <TbBrandTypescript className='text-black  dark:text-white text-6xl m-2' />
       ),
     },
+    {
+      skill: 'Tailwindcss',
+      icon: (
+        <SiTailwindcss className='text-black  dark:text-white text-6xl m-2' />
+      ),
+    },
   ];
 
   return (
@@ -58,9 +64,10 @@ const TechStack = () => {
       id='techstack'
       className='md:w-1/2  p-4 border-2 dark:border-gray-800 md:border-none'
     >
-      <h1 className=' text-black dark:text-white text-center text-2xl font-bold mb-2 md:text-center'>
+      <h2 className=' text-black dark:text-white text-center text-2xl font-bold mb-2 md:text-center'>
         Tech-Stack
-      </h1>
+      </h2>
+      <hr className='hidden md:block dark:border-white border-black ' />
 
       <div className='flex flex-col justify-between h-full'>
         <div className='flex flex-wrap flex-row justify-center mb-10 '>
