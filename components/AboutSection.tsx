@@ -5,6 +5,9 @@ import TechStack from './TechStack';
 const AboutSection = () => {
   return (
     <section id='more'>
+      <h1 className='text-center text-red-500 mb-6 font-bold text-2xl pt-20 pb-5'>
+        - About Me. -
+      </h1>
       <div className='  break-normal bg-stone-100  dark:bg-black text-gray-800 dark:text-gray-300 py-3 px-3 rounded-xl'>
         <div className='my-2 mx-4  md:pt-30 md:pb-30'>
           <div className='flex flex-col space-y-10 items-stretch justify-center align-top  md:flex-row md:text-left md:p-4 md:space-y-0 md:space-x-10 '>
@@ -68,7 +71,7 @@ const AboutSection = () => {
                 visually appealing and engaging place.
               </p>
               <br />
-              <div className=' flex justify-between mt-6'>
+              <div className='flex justify-between md:block lg:flex lg:justify-between mt-6'>
                 <div>
                   <ul className='list-none'>
                     <li className='flex items-center'>
@@ -79,7 +82,11 @@ const AboutSection = () => {
                         height={4}
                         className='w-4 h-4 rounded-full mr-2'
                       />
-                      <span className='font-bold'>{'german '}</span> - [fluent]
+                      <span className='font-bold text-gray-400'>
+                        {'German '}
+                        {' - '}
+                      </span>{' '}
+                      [fluent]
                     </li>
                     <br />
                     <li className='flex items-center'>
@@ -90,9 +97,13 @@ const AboutSection = () => {
                         height={4}
                         className='w-4 h-4 rounded-full mr-2'
                       />
-                      <span className='font-bold'>{'english'}</span> - [fluent]
+                      <span className='font-bold text-gray-400'>
+                        {'English '}
+                        {' - '}
+                      </span>
+                      [fluent]
                     </li>
-                    <br />{' '}
+                    <br />
                   </ul>
                 </div>
                 <div>
@@ -105,7 +116,10 @@ const AboutSection = () => {
                         height={4}
                         className='w-4 h-4 rounded-full mr-2'
                       />
-                      <span className='font-bold'>{'japanese'}</span> -
+                      <span className='font-bold text-gray-400'>
+                        {'Japanese '}
+                        {' - '}
+                      </span>
                       [conversational]
                     </li>
                     <br />
@@ -117,7 +131,10 @@ const AboutSection = () => {
                         height={4}
                         className='w-4 h-4 rounded-full mr-2'
                       />
-                      <span className='font-bold'>{'hungarian'}</span> -
+                      <span className='font-bold text-gray-400'>
+                        {'Hungarian '}
+                        {' - '}
+                      </span>
                       [mothertounge]
                     </li>
                     <br />

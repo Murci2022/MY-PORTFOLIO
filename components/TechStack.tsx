@@ -56,7 +56,7 @@ const TechStack = () => {
   return (
     <section
       id='techstack'
-      className='md:w-1/2  p-4 '
+      className='md:w-1/2  p-4 border-2 dark:border-gray-800 md:border-none'
     >
       <h1 className=' text-black dark:text-white text-center text-2xl font-bold mb-2 md:text-center'>
         Tech-Stack
