@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div
         className='
             
-            flex flex-col text-center items-center justify-center mt-20 py-16 md:flex-row md:space-x-4 md:text-left md:pt-35 sm:pt-10'
+            flex flex-col text-center items-center justify-center mt-60 mb-60 md:mb-0 py-16 md:flex-row md:space-x-4 md:text-left md:pt-35 sm:pt-10'
       >
         <div
           className='
@@ -23,7 +23,7 @@ const HeroSection = () => {
             hello konnichiwa szia grüssgott moin,moin!
           </div>
           <div>
-            <h1 className='font-bold text-4xl mt-6 md:text-7xl md:mt-0'>
+            <h1 className='font-bold text-6xl mt-6 lg:text-7xl md:mt-2'>
               Mate Kamaras
             </h1>
           </div>
@@ -36,7 +36,7 @@ const HeroSection = () => {
           </p>
           <Link
             to='projects'
-            className='text-neutral-100 font-semibold mr-4 rounded-md px-6 py-3 bg-lblue shadow-xl hover:bg-hlblue active:ring-2 active:ring-blue-500 active:ring-offset-2 active:ring-offset-blue-500 cursor-pointer'
+            className='text-neutral-100 font-semibold mr-4 rounded-md px-4 py-2.5 lg:px-6 lg:py-3 bg-lblue shadow-xl hover:bg-hlblue active:ring-2 active:ring-blue-500 active:ring-offset-2 active:ring-offset-blue-500 cursor-pointer'
             activeClass='active'
             spy={true}
             smooth={true}
@@ -47,7 +47,7 @@ const HeroSection = () => {
           </Link>
           <Link
             to='techstack'
-            className='text-neutral-100 font-semibold rounded-md px-6 py-3 bg-lblue shadow-xl hover:bg-hlblue active:ring-2 active:ring-blue-500 active:ring-offset-2 active:ring-offset-blue-500 cursor-pointer'
+            className='text-neutral-100 font-semibold rounded-md px-4 py-2.5 lg:px-6 lg:py-3 bg-lblue shadow-xl hover:bg-hlblue active:ring-2 active:ring-blue-500 active:ring-offset-2 active:ring-offset-blue-500 cursor-pointer'
             activeClass='active'
             spy={true}
             smooth={true}
@@ -59,7 +59,7 @@ const HeroSection = () => {
         </div>
         <div className=' flex justify-center  md:w-1/2 md:mt-2'>
           <Image
-            className='rounded-md shadow-xl w-300 h-auto hidden md:block'
+            className='rounded-md shadow-xl w-300 h-auto p-6 lg:p-2 hidden md:block'
             src='/MateKamaras.png'
             alt='headshot'
             width={300}
@@ -69,7 +69,10 @@ const HeroSection = () => {
         </div>
       </div>
       <div className='flex flex-col justify-center  md:mt-40'>
-        <div className='flex justify-evenly '>
+        <h1 className='text-center text-red-500 mb-6 font-bold text-2xl pt-20 pb-5 hidden md:block'>
+          - About Me -
+        </h1>
+        {/*  <div className='flex justify-evenly '>
           <Link
             to='about'
             activeClass='active'
@@ -78,7 +81,7 @@ const HeroSection = () => {
             offset={-100}
             duration={500}
           >
-            <RxDoubleArrowDown
+             <RxDoubleArrowDown
               size={40}
               className='animate-bounce cursor-pointer mb-6 text-gray-400'
             />
@@ -97,7 +100,7 @@ const HeroSection = () => {
               className='animate-bounce cursor-pointer mb-6 text-gray-400'
             />
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   );
