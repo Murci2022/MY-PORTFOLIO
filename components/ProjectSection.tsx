@@ -12,7 +12,7 @@ const projects = [
     github: 'https://github.com/Murci2022/matchbox-shopping-cart',
     link: '#',
     techstack: 'React Redux-Toolkit',
-    hashtag: '#REDUX-TOOLKIT #React.js',
+    hashtag: '#REDUX-TOOLKIT',
   },
   {
     name: 'Password Generator',
@@ -43,7 +43,7 @@ const projects = [
     github: 'https://github.com/Murci2022/PORTFOLIO_MATE',
     link: 'https://portfolio-mate.vercel.app/',
     techstack: 'Next.js, Typescript',
-    hashtag: '#Next.js #Typescript',
+    hashtag: '#Typescript',
   },
 ];
 
@@ -94,12 +94,12 @@ const ProjectSection = () => {
                     <Link
                       href={project.github}
                       target='_blank'
-                      className='hover:-translate-y-1 transition-transform cursor-pointer flex items-center mt-8'
+                      className='hover:-translate-y-1 transition-transform cursor-pointer flex items-center  md:mt-8'
                     >
                       <FaGithubSquare className='text-xl mr-2' />
                       <span text-lg>my code on Github</span>
                     </Link>
-                    <div className=' flex  items-center ml-6 md:ml-0 mt-8'>
+                    <div className=' flex  items-center ml-6 md:ml-0 md:mt-8'>
                       <span className='text-lg '>{project.hashtag}</span>
                     </div>
                   </div>

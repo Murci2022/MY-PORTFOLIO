@@ -17,7 +17,7 @@ const AboutSection = () => {
               </h1>
               <p>
                 My name is
-                <span className=' dark:text-gray-400'>{' Mate Kamaras'}</span>.
+                <span className=' dark:text-gray-400'>{' Maté Kamaras'}</span>.
                 I'm a
                 <span className=' dark:text-gray-400'>
                   {' Frontend Developer '}
