@@ -82,4 +82,4 @@ Thank you to Danny Adams!
 
 ## Author
 
-- Website - [Murci2022/M.K.](https://portfolio-mate.vercel.app/)
+- Website - [Murci2022/Maté Kamaras](https://portfolio-mate.vercel.app/)
