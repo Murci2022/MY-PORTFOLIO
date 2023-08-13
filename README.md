@@ -1,5 +1,9 @@
 ## Welcome 👋🏻
 
+## Overview
+
+Welcome to my personal portfolio website built using Next.js and Typescript. This project serves as a showcase for my skills, highlights my projects, and offers insights into my journey as a web developer.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -11,10 +15,6 @@
 - [Continued development](#continued-development)
 - [Acknowledgments](#continued-development)
 - [Author](#author)
-
-## Overview
-
-Welcome to my personal portfolio website built using Next.js and Typescript. This project showcases skills, projects, and provides insights into my journey as a web developer.
 
 ## The Challange
 

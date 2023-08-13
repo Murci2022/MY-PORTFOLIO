@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>Mate Kamaras-Yamaguchi</title>
+      <title>Mate Kamaras</title>
       <meta
         content='width=device-width, initial-scale=1'
         name='viewport'
