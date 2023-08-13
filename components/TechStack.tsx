@@ -80,7 +80,7 @@ const TechStack = () => {
               key={idx}
               className='mr-3 mt-3 text-gray-500'
             >
-              <div className='flex group flex-col items-center h-16 overflow-hidden'>
+              <div className='flex group flex-col items-center h-16 overflow-hidden cursor-pointer'>
                 {skill.icon}
                 <p className=' dark:text-white hidden group-hover:flex text-sm'>
                   {skill.skill}
