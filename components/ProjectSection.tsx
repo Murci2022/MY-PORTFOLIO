@@ -10,7 +10,7 @@ const projects = [
       'This Matchbox Shopping Cart App includes all the cool features that Redux Toolkit has to offer, such as store, slices, reducers, and action creators.',
     image: '/matchbox-shopping-cart.png',
     github: 'https://github.com/Murci2022/matchbox-shopping-cart',
-    link: '#',
+    link: 'https://matchbox-shopping-cart.vercel.app/',
     techstack: 'React Redux-Toolkit',
     hashtag: '#REDUX-TOOLKIT',
   },
