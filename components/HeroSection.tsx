@@ -21,7 +21,7 @@ const HeroSection = () => {
           </div>
           <div>
             <h1 className='font-bold text-6xl mt-6 p-2 lg:text-7xl md:mt-2'>
-              Maté Kamaras
+              I'm Mateos.
             </h1>
           </div>
 
