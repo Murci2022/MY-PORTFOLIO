@@ -39,7 +39,7 @@ const projects = [
     name: 'My Portfolio Website',
     description:
       'This project showcases skills, projects, and provides insights into my journey as a web developer',
-    image: '/my-portfolio-website1.png',
+    image: '/Portfolio-website.png',
     github: 'https://github.com/Murci2022/PORTFOLIO_MATE',
     link: 'https://portfolio-mate.vercel.app/',
     techstack: 'Next.js, Typescript',
