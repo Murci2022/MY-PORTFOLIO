@@ -14,7 +14,7 @@ const Footer = () => {
       />
       <div className='mx-auto p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between'>
         <div className=' flex flex-row items-center justify-center space-x-1 text-black dark:text-neutral-100'>
-          <a>@ 2023 Maté Kamaras</a>
+          <a>@Murci2023</a>
         </div>
         <div className='flex flex-row items-center justify-center space-x-2 mb-1 dark:text-white'>
           <a
@@ -28,7 +28,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href='https://www.linkedin.com/in/mate-k-22b9621ab/'
+            href='https://www.linkedin.com/in/matheos-k-0461b0243/'
             rel='noreferrer'
             target='_blank'
           >
@@ -39,7 +39,7 @@ const Footer = () => {
           </a>
 
           <a
-            href='https://www.youtube.com/watch?v=Q-3-A0y0Qqc'
+            href='#'
             rel='noreferrer'
             target='_blank'
           >
